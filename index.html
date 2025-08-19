@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akademi Desain</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="text-gray-800">
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-gradient-to-r from-blue-700 to-blue-900 border-b border-blue-600">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-3 text-white">
+      <div class="flex items-center gap-2">
+        <div class="h-20 w-20 rounded-2xl bg-blue-500 overflow-hidden">
+          <img src="images/logo.jpg" alt="Logo Akademi" width="180">
+        </div>
+        <span class="font-semibold tracking-tight">Akademi Desain</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#kelas" class="hover:text-yellow-300">Kelas</a>
+        <a href="#paket" class="hover:text-yellow-300">Paket</a>
+        <a href="#dokumentasi" class="hover:text-yellow-300">Dokumentasi</a>
+        <a href="#faq" class="hover:text-yellow-300">FAQ</a>
+        <a href="#kontak" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="py-16 bg-gradient-to-b from-blue-50 via-blue-100 to-blue-200">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-4 items-center">
+      <div>
+        <h1 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight text-blue-900">
+          Belajar 3D, Desain, & Game<span class="block">dengan kurikulum yang jelas.</span>
+        </h1>
+        <p class="mt-4 text-gray-700 md:text-lg">Tiga jalur kelas yang disusun bertahap, proyek nyata, dan dokumentasi lengkap. Cocok untuk pemula hingga siap kerja.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#kelas" class="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-5 py-3 rounded-2xl hover:from-blue-700 hover:to-blue-900 transition">Lihat Kelas</a>
+          <a href="#dokumentasi" class="border border-blue-600 text-blue-800 px-5 py-3 rounded-2xl hover:bg-blue-100 transition">Lihat Dokumentasi</a>
+        </div>
+      </div>
+      <div class="aspect-w-4 aspect-h-3 rounded-3xl border border-blue-300 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center p-10 text-center">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+    <source src="images/video1.mp4" type="video/mp4" />
+    Browser kamu tidak mendukung video HTML5.
+  </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- KURIKULUM -->
+  <section id="kelas" class="py-16 bg-gradient-to-b from-blue-100 to-blue-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-4xl font-bold text-blue-900">Kursus Kelas</h2>
+      <p class="mt-2 text-gray-700">Pilih jalur yang paling cocok. Semua kelas berujung pada proyek akhir untuk portofolio.</p>
+      <div class="mt-10 grid gap-6 md:grid-cols-3">
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="text-xl font-semibold text-blue-800">Kelas 3D</h3>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1 text-gray-600">
+            <li>Dasar-dasar 3D (mesh, UV, material)</li>
+            <li>Workflow texturing & lighting realistis</li>
+            <li>Render portfolio-ready</li>
+          </ul>
+        </div>
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="text-xl font-semibold text-blue-800">Kelas Desain</h3>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1 text-gray-600">
+            <li>Prinsip desain & tipografi modern</li>
+            <li>Sistem warna & grid untuk layout rapi</li>
+            <li>Desain brand kit & konten media sosial</li>
+          </ul>
+        </div>
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="text-xl font-semibold text-blue-800">Kelas Game</h3>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1 text-gray-600">
+            <li>Dasar game loop & input</li>
+            <li>Prototipe level dan AI sederhana</li>
+            <li>Build ke WebGL/Android untuk demo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAKET -->
+  <section id="paket" class="py-16 bg-gradient-to-b from-blue-200 to-blue-300">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-4xl font-bold text-blue-900">Paket Belajar</h2>
+      <p class="mt-2 text-gray-700">Semua paket fokus ke praktik & hasil portofolio. Tanpa sistem checkout di website.</p>
+      <div class="mt-10 grid gap-6 md:grid-cols-3">
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="text-xl font-semibold text-blue-800">Starter</h3>
+          <p class="text-sm text-gray-600">6 pertemuan • Pemula total</p>
+        </div>
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="text-xl font-semibold text-blue-800">Pro</h3>
+          <p class="text-sm text-gray-600">8 pertemuan • Menengah</p>
+        </div>
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="text-xl font-semibold text-blue-800">Master</h3>
+          <p class="text-sm text-gray-600">10 pertemuan • Siap kerja</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOKUMENTASI -->
+  <section id="dokumentasi" class="py-16 bg-gradient-to-b from-blue-300 to-blue-400">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-4xl font-bold text-white">Dokumentasi & Portofolio</h2>
+      <p class="mt-2 text-blue-100">Hasil karya dan aktivitas kelas.</p>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <div class="rounded-3xl overflow-hidden border border-blue-200 bg-white shadow">
+          <img src="https://via.placeholder.com/400x300" alt="Dokumentasi" class="w-full object-cover" />
+        </div>
+        <div class="rounded-3xl overflow-hidden border border-blue-200 bg-white shadow">
+          <img src="https://via.placeholder.com/400x300" alt="Dokumentasi" class="w-full object-cover" />
+        </div>
+        <div class="rounded-3xl overflow-hidden border border-blue-200 bg-white shadow">
+          <img src="https://via.placeholder.com/400x300" alt="Dokumentasi" class="w-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 bg-gradient-to-b from-blue-400 to-blue-500">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-4xl font-bold text-white">Pertanyaan Umum</h2>
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="font-semibold text-blue-800">Apakah ada sistem pembelian di web ini?</h3>
+          <p class="text-sm text-gray-600">Tidak. Situs ini hanya untuk presentasi kurikulum, paket, dan dokumentasi hasil karya.</p>
+        </div>
+        <div class="border border-blue-300 rounded-3xl p-6 bg-white shadow">
+          <h3 class="font-semibold text-blue-800">Apakah ada rekaman kelas?</h3>
+          <p class="text-sm text-gray-600">Ya, paket Pro & Master mendapatkan akses rekaman.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="py-16 bg-gradient-to-b from-blue-500 to-blue-700 text-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl md:text-4xl font-bold">Hubungi Kami</h2>
+        <p class="mt-2">Kirim pesan untuk konsultasi kurikulum atau jadwal.</p>
+        <p class="mt-4 text-sm">Email: medan@akademidesain.id</p>
+        <p class="text-sm">Telp: +62 812-0000-0000</p>
+        <p class="text-sm">Lokasi: Medan, Indonesia</p>
+      </div>
+      <div class="border border-blue-300 rounded-3xl p-6 bg-white text-gray-800 shadow">
+        <form class="space-y-4" onsubmit="sendWhatsApp(event)">
+          <div>
+            <label class="text-sm text-blue-800">Nama</label>
+            <input id="nama" class="mt-1 w-full border border-blue-300 rounded-2xl px-3 py-2 focus:ring focus:ring-blue-200" placeholder="Nama lengkap" required>
+          </div>
+          <div>
+            <label class="text-sm text-blue-800">Pesan</label>
+            <textarea id="pesan" rows="4" class="mt-1 w-full border border-blue-300 rounded-2xl px-3 py-2 focus:ring focus:ring-blue-200" placeholder="Ceritakan kebutuhan Anda" required></textarea>
+          </div>
+          <button type="submit" class="w-full bg-green-600 text-white px-4 py-2 rounded-2xl hover:bg-green-700 transition">Kirim via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-blue-800 bg-gradient-to-r from-blue-800 to-blue-900 text-white">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 py-8 gap-4">
+      <p class="text-sm">© 2025 Akademi Desain. Untuk pembelajaran terbaik.</p>
+      <div class="flex gap-4 text-sm">
+        <a href="#kelas" class="hover:text-yellow-300">Kurikulum</a>
+        <a href="#paket" class="hover:text-yellow-300">Paket</a>
+        <a href="#dokumentasi" class="hover:text-yellow-300">Dokumentasi</a>
+        <a href="#kontak" class="hover:text-yellow-300">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function sendWhatsApp(event) {
+      event.preventDefault();
+      let nama = document.getElementById("nama").value;
+      let pesan = document.getElementById("pesan").value;
+      let nomor = "6283154508692"; // ganti dengan nomor WA kamu
+      let url = `https://wa.me/${nomor}?text=Halo,%20saya%20${encodeURIComponent(nama)}.%0A${encodeURIComponent(pesan)}`;
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
